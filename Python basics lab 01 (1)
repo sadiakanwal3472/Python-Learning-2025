@@ -1,0 +1,328 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "de2ec7e0-7241-4dcc-9c7d-d6a3c4603f04",
+   "metadata": {},
+   "source": [
+    "# Number python as calculator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "5a25e7bc-f956-43ab-9be7-e6bbfc5c13d9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Please inter only the integer number: 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "num1= int(input(\"Please inter only the integer number:\"))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "04bb44a0-2ecf-41fe-9e31-35dacad544e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "please inter only integer number 2: 4\n"
+     ]
+    }
+   ],
+   "source": [
+    "num2=int(input(\"please inter only integer number 2:\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "61d1b846-19d5-46f0-b865-a0d65953c81c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "7\n"
+     ]
+    }
+   ],
+   "source": [
+    "# sum the above two number\n",
+    "ans1= num1+num2\n",
+    "print(ans1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "84abe7d5-d86b-4455-95be-b427033094d7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "-1\n"
+     ]
+    }
+   ],
+   "source": [
+    "# subtract the above two number\n",
+    "ans2= num1-num2\n",
+    "print(ans2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "4ee7cd05-5d73-4acd-ace1-19c8ad3036eb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "DostdarAli\n"
+     ]
+    }
+   ],
+   "source": [
+    "var1=\"Dostdar\"\n",
+    "var2=\"Ali\"\n",
+    "fullname =var1+var2\n",
+    "print(fullname)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "8054cd85-71ed-4c17-901e-706e07cc8a0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "python\n"
+     ]
+    }
+   ],
+   "source": [
+    "a=\"py\"\n",
+    "b=\"thon\"\n",
+    "z=a+b\n",
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "d15b8d52-d465-4a89-8b57-a6e68750d9b7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "I am a studentI read in class 10\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=\"I am a student\"\n",
+    "y= \"I read in class 10\"\n",
+    "z=x+y\n",
+    "print(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "7b4f07d4-8395-4eac-a410-7b11ade811f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'h'"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word=\"python\"\n",
+    "word[3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "69912d9e-cb0c-439b-a260-f005c8f97f03",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'0'"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z[-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "639f1dc1-2802-4941-a432-8db8d1586afe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "' clas'"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "z[23:28]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "b2f889a4-1bf1-498f-b19c-277f73e13627",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'py'"
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word[0:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "6aa9c4b0-3835-40f6-8fe7-3651cf50a7ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'py'"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word[:2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "ac72846c-5b93-4450-8a73-976c230a11fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'thon'"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "word[2:]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "524984b3-5f21-46b9-aade-20e17fa2729b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "32"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(z)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da42d30b-5738-40d6-89e1-66b078487c15",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
